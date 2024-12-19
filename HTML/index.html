@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div>
+      <div class="flex-container">
+        <div class="pic-box">
+          <img src="Images/2.jpg" alt="Picture" />
+        </div>
+        <div class="details">
+          <div class="col-lg-6">
+            <div class="product-info">
+              <div class="product-tags">Classy Modern Smart Watch</div>
+              <div class="rating">
+                <div class="stars">
+                  <i class="fa-solid fa-star cheked"></i>
+                  <i class="fa-solid fa-star cheked"></i>
+                  <i class="fa-solid fa-star cheked"></i>
+                  <i class="fa-solid fa-star-half-stroke cheked"></i>
+                  <i class="fa-regular fa-star cheked"></i>
+                </div>
+                <div class="reviews">(2 reviews)</div>
+              </div>
+            </div>
+            <div class="price">
+              <div class="act-price">$99.00</div>
+              <div class="discount">$79.00</div>
+            </div>
+            <div class="product-excrept">
+              I must explain to you how all this mistaken idea of denoun cing
+              ple praising pain was born and I will give you a complete account
+              of the system, and expound the actual teaching.
+            </div>
+            <div class="product-meta">
+              <div class="product-meta-row">
+                <div class="top">Type</div>
+                <div class="bottom">Watch</div>
+              </div>
+              <div class="product-meta-row">
+                <div class="top">Model Number</div>
+                <div class="bottom">Forerunner 290XT</div>
+              </div>
+            </div>
+            <div class="brand-color-box">
+              <div class="brand-txt">Brand Color</div>
+              <div class="color-options">
+                <div
+                  class="color-circle"
+                  style="background-color: #a369f2"
+                ></div>
+                <div
+                  class="color-circle"
+                  style="background-color: #26c6da"
+                ></div>
+                <div
+                  class="color-circle"
+                  style="background-color: #42a5f5"
+                ></div>
+                <div
+                  class="color-circle"
+                  style="background-color: #37474f"
+                ></div>
+              </div>
+            </div>
+            <div class="size-container">
+              <div class="brand-txt">Wrist Size</div>
+              <div class="size-selector">
+                <div class="size-box selected" data-price="$69">
+                  <span>S</span> $69
+                </div>
+                <div class="size-box" data-price="$79"><span>M</span> $79</div>
+                <div class="size-box" data-price="$89"><span>L</span> $89</div>
+                <div class="size-box" data-price="$99"><span>XL</span> $99</div>
+              </div>
+            </div>
+
+            <div class="product-container">
+              <div class="quantity-selector">
+                <div id="decrease" class="quantity-btn">−</div>
+                <div id="quantity" class="quantity-number">
+                  <div>0</div>
+                </div>
+                <div id="increase" class="quantity-btn">+</div>
+              </div>
+              <div class="add-to-cart">Add to Cart</div>
+              <span class="wishlist-heart">♡</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="floating-button hide" id="openModal">
+      <div class="flt-btn">
+        <div class="checkout">Checkout</div>
+        <div class="total-item"></div>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal hide">
+      <div class="modal-content">
+        <div class="your-cart">Your Cart</div>
+        <div class="cart-table">
+          <div class="cart-row header-row">
+            <div class="cart-item header-cart">Item</div>
+            <div class="prop header-cart">Color</div>
+            <div class="prop header-cart">Size</div>
+            <div class="prop header-cart">Qnt</div>
+            <div class="prop-price header-cart">Price</div>
+          </div>
+        </div>
+        <div class="total-row">
+          <div class="total-txt">Total</div>
+          <div class="total-qnt">5</div>
+          <div class="total-price">$60.00</div>
+        </div>
+        <div class="cart-btn">
+          <div class="cont-shop">
+            <div class="shop-btn">Continue Shopping</div>
+          </div>
+          <div class="chk-btn-final">Checkout</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
